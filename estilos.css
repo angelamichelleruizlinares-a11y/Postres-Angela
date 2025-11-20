@@ -1,0 +1,56 @@
+/* PALETA ROSA PASTEL */
+:root {
+    --rosa: #ffb6d9;
+    --rosa-oscuro: #e28cb3;
+    --rosa-claro: #ffe4f1;
+}
+
+/* Navbar */
+.bg-pink {
+    background-color: var(--rosa);
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(rgba(255, 182, 217, 0.5),
+                                rgba(255, 182, 217, 0.5)),
+                url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+.text-pink {
+    color: var(--rosa-oscuro);
+}
+
+/* Cartas */
+.card {
+    border-radius: 12px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+/* Footer */
+footer {
+    background-color: var(--rosa);
+}
+/* HERO pequeño */
+.hero-small {
+    background: var(--rosa);
+    padding: 60px 0;
+}
+
+/* Botón rosado */
+.btn-pink {
+    background-color: var(--rosa);
+    color: white;
+}
+
+.btn-pink:hover {
+    background-color: var(--rosa-oscuro);
+    color: white;
+}
